@@ -230,3 +230,35 @@ h1 {
     transform: translateY(0%);
   }
 }
+
+ul.keyboard-row {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+  justify-content: center;
+  padding-bottom: 4px;
+}
+li.keyboard-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: larger;
+  background-color: silver;
+  min-width: 30px;
+  padding: 2px;
+  height: auto;
+  border-radius: 4px;
+}
+li.correct {
+  background-color: green;
+  color: white;
+}
+li.incorrect {
+  background-color: black;
+  color: white;
+}
+li.misplaced {
+  background-color: rgb(196, 196, 25);
+  color: white;
+}
